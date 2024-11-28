@@ -1,0 +1,25 @@
+.pink
+{
+    border: 10px outset palevioletred;
+    padding: 10px;
+}
+
+h1
+{
+    font-size: 80px;
+    color: blueviolet;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+}
+
+#AboutPara
+{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#nailsImage{
+    padding: 30px;
+    text-align: center;
+}

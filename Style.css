@@ -9,7 +9,7 @@ body
 {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #333;
+    background-color: #393939;
     color: aliceblue;
 }
 
@@ -47,7 +47,7 @@ body
 .title 
 {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 3rem 10rem;
 }
 
 .title h1
@@ -60,20 +60,76 @@ body
     margin: 0;
 }
 
-.WelcomeText
+/* Main Content Styling */
+.MainContent 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.AboutSection
 {
     border: 10px outset palevioletred;
     padding: 10px;
 }
 
-#AboutPara
+.AboutSection, .ServicesSection, .ContactSection 
 {
+    /*background-color: white;*/
     font-size: 20px;
-    font-family: cursive;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Sections
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+h2 
+{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
 #nailsImage
 {
     padding: 30px;
     text-align: center;
+}
+
+/* Text Formatting */
+.highlight 
+{
+    background-color: palevioletred;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+em 
+{
+    color: palevioletred;
+    font-style: italic;
+}
+
+.email 
+{
+    color: palevioletred;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.Footer 
+{
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
 }

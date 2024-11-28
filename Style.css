@@ -1,16 +1,69 @@
-.pink
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: aliceblue;
+}
+
+/* Header Style */
+.Header 
+{
+    background-color: palevioletred;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+.MainNav ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.MainNav a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.MainNav a:hover 
+{
+    color: palevioletred;
+}
+
+/* Title Styling */
+.title 
+{
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.title h1
+{
+    font-size: 80px;
+    color: palevioletred;
+    -webkit-text-stroke: 3px white;
+    /*font-family: monospace;*/
+    text-align: center;
+    margin: 0;
+}
+
+.WelcomeText
 {
     border: 10px outset palevioletred;
     padding: 10px;
-}
-
-h1
-{
-    font-size: 80px;
-    color: blueviolet;
-    font-family: monospace;
-    text-align: center;
-    margin: 0;
 }
 
 #AboutPara
@@ -19,7 +72,8 @@ h1
     font-family: cursive;
 }
 
-#nailsImage{
+#nailsImage
+{
     padding: 30px;
     text-align: center;
 }
